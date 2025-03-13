@@ -7,8 +7,12 @@ This repository contains a platform application with a microservice architecture
 - [Introduction](#introduction)
 - [Architecture](#architecture)
 - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
 - [Deployment](#deployment)
 - [Usage](#usage)
+  - [Accessing Services](#accessing-services)
+  - [Monitoring](#monitoring)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -51,16 +55,21 @@ This project demonstrates a microservice architecture deployed on Kubernetes, wi
 
 ## Deployment
 
-Follow the setup instructions to deploy the application to your Kubernetes cluster.
+Follow the setup instructions to deploy the application to your Kubernetes cluster. Ensure that all services are running correctly by checking the status of pods and services in Kubernetes.
 
 ## Usage
 
-1. Access the services through the Kubernetes ingress.
-2. Monitor RabbitMQ queues for inter-service communication.
+### Accessing Services
+
+1. Access the services through the Kubernetes ingress. Configure the ingress to expose the necessary services.
+
+### Monitoring
+
+2. Monitor RabbitMQ queues for inter-service communication. Use RabbitMQ management UI or command-line tools to check the status of queues and messages.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
